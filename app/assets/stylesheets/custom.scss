@@ -7,6 +7,10 @@ body {
     padding-top: 60px;
 }
 
+hr {
+   border-top: solid 2px #aaaaff;
+}
+
 /* header */
 
 .navbar-custom {
@@ -37,7 +41,7 @@ body {
 .btn {
     background-color: #9999ff;
     border: none;
-    box-shadow: inset #7777ff;
+    box-shadow: inset -5px -5px 5px 0px #7777ff;
     font-weight: bold;
     &:hover {
         background-color: #7777ff;
